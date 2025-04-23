@@ -1,0 +1,27 @@
+{
+
+    "Logging": {
+        "LogLevel": {
+            "Default": "Information",
+            "Microsoft.AspNetCore": "Warning"
+        }
+    },
+    "Serilog": {
+        "Using": [ "Serilog.Sinks.File" ],
+        "MinimumLevel": {
+            "Default": "Information"
+        },
+        "WriteTo": [
+            {
+                "Name": "File",
+                "Args": {
+                    // "path": "../logs/webapi-.log",
+                    "path": "D:\\AttendanceSystemSolution\\AttendanceSystem.API\\Logslog-.\\txt",
+                    "rollingInterval": "Day",
+                    "outputTemplate": "{Timestamp:yyyy-dd-MM HH:mm:ss.fff zzz} {CorrelatiId} {Level:u4} {User} {Msg:lj}{Exception}{NewLine}"
+                }
+            }
+        ]
+    }
+
+}

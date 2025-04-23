@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AttendanceSystem.Business\AttendanceSystem.Business.csproj" />
+    <ProjectReference Include="..\AttendanceSystem.Shared\AttendanceSystem.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+{
+    "Jwt": {
+        "Key": "555b414b06b00c3adddb966b8141340aabe30ff644b904a70e910b6ffc76543f",
+        "Issuer": "https://localhost:7169;http://localhost:5133",
+        "Audience": "https://localhost:7169;http://localhost:5133",
+        "ExpiryPeriodInDays": 3
+    },
+    "AuthPasswordConfiguration": {
+        "RequireDigit": false,
+        "RequireLowercase": false,
+        "RequireNonAlphanumeric": false,
+        "RequireUppercase": false,
+        "RequiredLength": 5,
+        "RequiredUniqueChars": 1
+    }
+
+}

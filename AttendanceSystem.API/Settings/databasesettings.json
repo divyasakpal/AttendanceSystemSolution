@@ -1,0 +1,8 @@
+{
+    "ConnectionStrings": {
+        "AuthDbConnection": "Data Source=./Data/AuthDatabase.db",
+        "AppDbConnection": "Data Source=./Data/LocalDatabase.db"
+
+    }
+
+}
